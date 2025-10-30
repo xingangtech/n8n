@@ -1,22 +1,22 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-[中文](./ZN_README.md)
+[英文](./README.md)
 
-# n8n - Secure Workflow Automation for Technical Teams
+# n8n - 技术团队的安全工作流自动化
 
-n8n is a workflow automation platform that gives technical teams the flexibility of code with the speed of no-code. With 400+ integrations, native AI capabilities, and a fair-code license, n8n lets you build powerful automations while maintaining full control over your data and deployments.
+n8n是一个工作流自动化平台，它为技术团队提供了代码的灵活性，同时具备无代码的速度。凭借400多种集成、原生AI功能和公平代码许可，n8n使您能够在构建强大自动化的同时，保持对数据和部署的完全控制。
 
 ![n8n.io - Screenshot](https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)
 
-## Key Capabilities
+## 关键能力
 
-- **Code When You Need It**: Write JavaScript/Python, add npm packages, or use the visual interface
-- **AI-Native Platform**: Build AI agent workflows based on LangChain with your own data and models
-- **Full Control**: Self-host with our fair-code license or use our [cloud offering](https://app.n8n.cloud/login)
-- **Enterprise-Ready**: Advanced permissions, SSO, and air-gapped deployments
-- **Active Community**: 400+ integrations and 900+ ready-to-use [templates](https://n8n.io/workflows)
+- **随需编码**：编写JavaScript/Python代码，和npm包，或使用可视化界面
+- **原生AI平台**：使用您自己的数据和模型，基于LangChain构建AI代理工作流程
+- **完全控制**：使用我们的公平代码许可进行自托管，或使用我们的[云服务](https://app.n8n.cloud/login)
+- **企业级就绪**：高级权限、单点登录（SSO）和无隔阂部署
+- **活跃社区**：400+集成和900+即用型[模板](https://n8n.io/workflows)
 
-## Quick Start
+## 快速开始
 
 Try n8n instantly with [npx](https://docs.n8n.io/hosting/installation/npm/) (requires [Node.js](https://nodejs.org/en/)):
 
