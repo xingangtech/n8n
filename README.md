@@ -1,6 +1,6 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-[中文](n8n/ZN_README.md)
+[中文](./ZN_README.md)
 
 # n8n - Secure Workflow Automation for Technical Teams
 
