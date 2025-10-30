@@ -1,6 +1,6 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-[英文](./EN_README.md)
+[英文](https://github.com/xingangtech/n8n/edit/master/EN_README.md)
 
 # n8n - 技术团队的安全工作流自动化
 
