@@ -3,7 +3,8 @@ import type { INodeProperties, INodePropertyCollection, INodePropertyOptions } f
 import { ref } from 'vue';
 import { createI18n } from 'vue-i18n';
 
-import englishBaseText from './locales/en.json';
+// import englishBaseText from './locales/en.json';
+import simpleChineseBaseText from './locales/zn.json';
 import type { BaseTextKey, LocaleMessages, INodeTranslationHeaders } from './types';
 import {
 	deriveMiddleKey,
@@ -14,11 +15,19 @@ import {
 
 export type * from './types';
 
+// export const i18nInstance = createI18n({
+// 	legacy: false,
+// 	locale: 'en',
+// 	fallbackLocale: 'en',
+// 	messages: { en: englishBaseText },
+// 	warnHtmlMessage: false,
+// });
+
 export const i18nInstance = createI18n({
 	legacy: false,
-	locale: 'en',
-	fallbackLocale: 'en',
-	messages: { en: englishBaseText },
+	locale: 'zn',
+	fallbackLocale: 'zn',
+	messages: { zn: simpleChineseBaseText },
 	warnHtmlMessage: false,
 });
 

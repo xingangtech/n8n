@@ -2,7 +2,8 @@ import '@testing-library/jest-dom';
 import 'fake-indexeddb/auto';
 import { configure } from '@testing-library/vue';
 import 'core-js/proposals/set-methods-v2';
-import englishBaseText from '@n8n/i18n/locales/en.json';
+// import englishBaseText from '@n8n/i18n/locales/en.json';
+import simpleChinese from "@n8n/i18n/locales/zn.json";
 import { loadLanguage, type LocaleMessages } from '@n8n/i18n';
 import { APP_MODALS_ELEMENT_ID } from '@/constants';
 
@@ -147,4 +148,5 @@ Object.defineProperty(HTMLElement.prototype, 'scrollTo', {
 	value: vi.fn(),
 });
 
-loadLanguage('en', englishBaseText as LocaleMessages);
+// loadLanguage('en', englishBaseText as LocaleMessages);
+loadLanguage('zn', simpleChinese as LocaleMessages);
